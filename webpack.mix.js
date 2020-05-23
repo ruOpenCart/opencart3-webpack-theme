@@ -39,4 +39,5 @@ mix
   .copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', THEME_PATH + 'webfonts')
   .copyDirectory('src/img', THEME_PATH + 'image')
   .copyDirectory('src/twig', THEME_PATH + 'template')
+  .copyDirectory('src/admin', 'admin')
   .copy('src/css/custom.css', THEME_PATH + 'css/custom.css');
