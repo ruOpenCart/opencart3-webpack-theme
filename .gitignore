@@ -8,47 +8,47 @@ php.ini
 .htaccess
 .htaccess.txt
 
-admin/*
+admin/
 
-!admin/controller
-admin/controller/*
-!admin/controller/extension
-admin/controller/extension/*
-!admin/controller/extension/theme
-admin/controller/extension/theme/default.php
+#!admin/controller
+#admin/controller/*
+#!admin/controller/extension
+#admin/controller/extension/*
+#!admin/controller/extension/theme
+#admin/controller/extension/theme/default.php
 
-!admin/language
-admin/language/*
+#!admin/language
+#admin/language/*
 
-!admin/language/en-gb
-admin/language/en-gb/*
-!admin/language/en-gb/extension
-admin/language/en-gb/extension/*
-!admin/language/en-gb/extension/theme
-admin/language/en-gb/extension/theme/default.php
+#!admin/language/en-gb
+#admin/language/en-gb/*
+#!admin/language/en-gb/extension
+#admin/language/en-gb/extension/*
+#!admin/language/en-gb/extension/theme
+#admin/language/en-gb/extension/theme/default.php
 
-!admin/language/ru-ru
-admin/language/ru-ru/*
-!admin/language/ru-ru/extension
-admin/language/ru-ru/extension/*
-!admin/language/ru-ru/extension/theme
-admin/language/ru-ru/extension/theme/default.php
+#!admin/language/ru-ru
+#admin/language/ru-ru/*
+#!admin/language/ru-ru/extension
+#admin/language/ru-ru/extension/*
+#!admin/language/ru-ru/extension/theme
+#admin/language/ru-ru/extension/theme/default.php
 
-!admin/view
-admin/view/*
-!admin/view/template
-admin/view/template/*
-!admin/view/template/extension
-admin/view/template/extension/*
-!admin/view/template/extension/theme
-admin/view/template/extension/theme/default.twig
+#!admin/view
+#admin/view/*
+#!admin/view/template
+#admin/view/template/*
+#!admin/view/template/extension
+#admin/view/template/extension/*
+#!admin/view/template/extension/theme
+#admin/view/template/extension/theme/default.twig
 
-catalog/*
+catalog/
 
-!catalog/view
-catalog/view/*
-!catalog/view/theme
-catalog/view/theme/default/*
+#!catalog/view
+#catalog/view/*
+#!catalog/view/theme
+#catalog/view/theme/default/*
 
 image/
 install/
